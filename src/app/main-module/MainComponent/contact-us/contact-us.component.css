@@ -55,13 +55,15 @@
 /* form  */
 
 .map{
-  background-image: url('../../../../assets/map.png');
+  background-image: url('../../../../assets/map.jpeg');
   height: 500px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+/* .map-color{
+    background-color: rgba(255, 251, 251, 0.849) ;
+} */
 
 
 

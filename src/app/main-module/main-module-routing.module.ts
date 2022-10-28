@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { ExtraOptions, RouterModule, Routes } from '@angular/router';
 import { MainModuleComponent } from './main-module.component';
 import { AboutUsComponent } from './MainComponent/about-us/about-us.component';
 import { AgencyComponent } from './MainComponent/agency/agency.component';
@@ -11,6 +11,8 @@ import { PrivacyPolicyComponent } from './MainComponent/privacy-policy/privacy-p
 import { ServicesComponent } from './MainComponent/services/services.component';
 import { StartContractingComponent } from './MainComponent/start-contracting/start-contracting.component';
 import { TermsComponent } from './MainComponent/terms/terms.component';
+
+
 
 const routes: Routes = [{ path: '', component: MainModuleComponent ,children:[
   {path:'',component:HomeComponent},

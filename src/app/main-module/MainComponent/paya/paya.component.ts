@@ -1,4 +1,6 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-paya',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PayaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _Router:Router, private _ViewPortScroller:ViewportScroller) { }
 
   ngOnInit(): void {
   }
